@@ -2,7 +2,7 @@
 ```
 
 module "terraform6_elb" {
-  source = "../"
+  source = ""dlysenko6745/ec2-elb-instance/aws""
   instance_type = var.instance_type
   ami = var.ami
   key_name = "diana"
